@@ -1,7 +1,7 @@
 # S+Universality #
 
 
-    ### Layout Yoga Pronto ###
+    ### S+Universality ###
 <img src="./assets/Capturar.PNG" alt="pronto-project">
 
 
@@ -11,7 +11,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [ ] Criação do HTML
 - [ ] Criação do CSS
-- [ ] Atualização do Layout
+- [x] Atualização do Layout
 - [x] Criação do javascript
 
 
