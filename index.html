@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="p1">
+        <div>
+            <h1 class="title">S+Universality</h1><br>
+            <h4 class="title1">Preencha o formulário</h4><br>
+
+        </div>
+
+        <form>
+
+            <fieldset class="grup">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label><br>
+                    <input class="inputt" placeholder="digite seu nome" type="text" name="nome" id="nome" required>
+                </div>
+
+                <div>
+                    <label for="sobrenome"><strong>Sobrenome</strong></label><br>
+                    <input class="inputt" placeholder="digite seu sobrenome" type="text" name="sobrenome" id="sobrenome"
+                        required>
+                </div>
+                <div>
+                    <label for="sobrenome"><strong>Telefone</strong></label><br>
+                    <input class="inputt" placeholder="(__) ______-_____" type="tel" name="telefon" id="telefone"
+                        required>
+                </div>
+
+               
+                <div>
+                    <label for="email"><strong>Email</strong></label><br>
+                    <input class="inputt" placeholder="digite seu email" type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="sobrenome"><strong>SUS</strong></label><br>
+                    <input class="inputt" placeholder="digite o numero do SUS" type="number" name="SUS" id="SUS"
+                        >
+                </div>
+                <div>
+                    <label><strong>Selecione o estado</strong></label><br>
+                    <select id="Selecion o estado">
+                        <option selected disabled value="">selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    </select>
+                </div>
+
+
+            </fieldset>
+
+            <fieldset class="grup">
+                <div>
+                    <label> <strong>Você possui plano de saúde?</strong></label><br>
+                    <label>
+                        <input type="checkbox" name="opcao" value="Sim">Sim
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="opcao" value="Não">Não
+                    </label><br>
+                    <label><strong>Qual seu plano de Saúde?</strong>
+                    <textarea placeholder="descreva seu plano" name="plano" id="plano" class="textarea1" ></textarea>
+                    </label><br>
+
+
+                    <label> <strong>Você procura vagas em hospitais Públicos ou Particulares?</strong></label><br>
+                    <label>
+                        <input type="radio" name="opcao" value="público">Público
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="opcao" value="particular">Particular
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="opcao" value="ambos">Ambos
+                    </label><br>
+
+                    
+
+
+                    <label><strong>Quais os sintomas?</strong></label><br>
+                    <label>
+                        <input type="checkbox" name="opcao" value="Enfermagem">Dor
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="opcao" value="medicina">Febre
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="opcao" value="nutriçao">Falta de Ar
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="opcao" value="outros">outros
+                    </label>
+
+                </div>
+            </fieldset>
+
+            <div>
+
+                <label><strong> Descreva o que você esta sentindo</strong></label><br>
+                <textarea placeholder="descreva detalhadamente os sintomas para agilizarmos o atendimento" class="textarea" now="6 " name="descriçao"
+                    id="dexcriçao"></textarea>
+            </div>
+           
+                <button class="botao" type="submit">Concluir</button>
+            
+        </form>
+    </div>
+</body>
+
+</html>
